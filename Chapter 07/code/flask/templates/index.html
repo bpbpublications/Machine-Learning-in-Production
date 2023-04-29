@@ -1,0 +1,86 @@
+<html>
+
+	<head>
+		<title>LOAN PREDICTION</title>
+	</head>
+ 
+	<body>
+		<h2 align="center">LOAN PREDICTION</h2>
+		<br/>
+		<form action="/predict" method="POST"> 
+			<table align="center" cellpadding = "10">
+ 
+				<!----- First Name ---------------------------------------------------------->
+				<tr>
+					<td>FIRST NAME</td>
+					<td>
+						<input type="text" name="First_Name" maxlength="30" placeholder="characters a-z A-Z"/>
+					</td>
+				</tr>
+				 
+				<!----- Last Name ---------------------------------------------------------->
+				<tr>
+					<td>LAST NAME</td>
+					<td>
+						<input type="text" name="Last_Name" maxlength="30" placeholder="characters a-z A-Z" />
+					</td>
+				</tr>
+				  
+				<!----- Gender---------------------------------------------------->
+				<tr>
+					<td>GENDER</td>
+					<td>
+						<input type="radio" name="gender" id="gender" value="1"> Male </input>
+						<input type="radio" name="gender" id="gender" value="0"> Female </input>
+					</td>
+				</tr>
+				 
+				<!-----Marital Status---------------------------------------------------->
+				<tr>
+					<td>MARRIED</td>
+					<td>
+						<input type="radio" name="married" id="married" value="1"> Yes </input>
+						<input type="radio" name="married" id="married" value="0"> No </input>
+					</td>
+				</tr>
+
+				<!----- Income ---------------------------------------------------------->
+				<tr>
+					<td>TOTAL INCOME</td>
+					<td>
+						<input type="text" name="total_income" maxlength="30" placeholder="$(thousands)" />
+					</td>
+				</tr>
+
+				<!----- Loan Amount ---------------------------------------------------------->
+				<tr>
+					<td>LOAN AMOUNT</td>
+					<td>
+						<input type="text" name="loan_amt" maxlength="30" placeholder="$(thousands)" />
+					</td>
+				</tr>
+
+				<!----- Credit History ---------------------------------------------------------->
+
+				<tr>
+					<td>CREDIT HISTORY</td>
+					<td>
+						<input type="radio" name="credit_history" id="credit_history" value="1"> Yes </input>
+						<input type="radio" name="credit_history" id="credit_history" value="0"> No </input>
+					</td>
+				</tr>
+
+				<!----- Submit and Reset ------------------------------------------------->
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" value="Submit">
+						&nbsp;&nbsp;  <!----- to add extra space -------->
+						<input type="reset" value="Reset" onclick="location.href='/';">
+					</td>
+				</tr>
+			</table>
+		</form>
+
+		<h3 align="center"> {{ prediction }} </h3>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+# model building requirements
+joblib==0.16.0
+numpy==1.19.0
+pandas==1.0.5
+scikit-learn==0.23.1
+scipy==1.5.1
+sklearn==0.0
+
+# testing requirements
+pytest<5.0.0,>=4.6.6
+requests
+
+# packaging
+setuptools==40.6.3
+wheel==0.32.3
+

@@ -1,0 +1,6 @@
+{
+    "subscription_id": "ee2249fb-0181-42eb-981d-7d9c06b705fb",
+    "resource_group": "mlops",
+    "workspace_name": "mlops_ws",
+    "location": "centralus"
+}

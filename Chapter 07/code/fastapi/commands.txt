@@ -1,0 +1,5 @@
+ uvicorn loan_pred_app:app --reload
+ python loan_pred_app.py
+https://www.youtube.com/watch?v=b5F667g1yCk
+https://www.youtube.com/watch?v=0s-oat69UqU
+https://www.geeksforgeeks.org/deploying-ml-models-as-api-using-fastapi/

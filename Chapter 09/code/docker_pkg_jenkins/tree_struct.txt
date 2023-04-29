@@ -1,0 +1,44 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 9A9A-CA9A
+E:.
+|   Dockerfile
+|   main.py
+|   requirements.txt
+|   tree_struct.txt
+|   
+\---src
+    |   MANIFEST.in
+    |   README.md
+    |   requirements.txt
+    |   setup.py
+    |   tox.ini
+    |   
+    +---prediction_model
+    |   |   pipeline.py
+    |   |   predict.py
+    |   |   train_pipeline.py
+    |   |   VERSION
+    |   |   __init__.py
+    |   |   
+    |   +---config
+    |   |       config.py
+    |   |       __init__.py
+    |   |       
+    |   +---datasets
+    |   |       test.csv
+    |   |       train.csv
+    |   |       __init__.py
+    |   |       
+    |   +---processing
+    |   |       data_management.py
+    |   |       preprocessors.py
+    |   |       __init__.py
+    |   |       
+    |   \---trained_models
+    |           classification_v1.pkl
+    |           __init__.py
+    |           
+    \---tests
+            pytest.ini
+            test_predict.py
+            

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+numpy
+python-multipart
+gunicorn
+uvloop
+pyjwt
+httptools
+scipy>=0.15.1
+scikit-learn==0.22.1
